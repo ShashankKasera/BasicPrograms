@@ -12,7 +12,7 @@ public class Main
 		for(int i=1;i<=n;i++){
                    for(int j=1;j<=n;j++){
                       if(i==j || (n-i+1)==j)
-                        System.out.print(j+" ");
+                        System.out.print("* ");
                       else 
                         System.out.print("  ");
                    }
@@ -22,17 +22,18 @@ public class Main
 }
 
                                                                                                               
+
 /*
 ============ OUTPUT ============
 	
 	Enter a number 9
-        1               9                                                                                                             
-	  2           8                                                                                                               
-	    3       7                                                                                                                 
-	      4   6                                                                                                                   
-	        5                                                                                                                     
-	      4   6                                                                                                                   
-	    3       7                                                                                                                 
-	  2           8                                                                                                               
-	1               9
+        *               *                                                                                                             
+	  *           *                                                                                                               
+	    *       *                                                                                                                 
+	      *   *                                                                                                                   
+	        *                                                                                                                     
+	      *   *                                                                                                                   
+	    *       *                                                                                                                 
+	  *           *                                                                                                               
+	*               * 
 */
