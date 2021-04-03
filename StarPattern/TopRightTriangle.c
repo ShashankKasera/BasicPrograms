@@ -20,7 +20,7 @@ void main(){
 
 /*
 Enter a number 10                                                                                                             
-*                 *                                                                                           
+                  *                                                                                           
                 * *                                                                                                             
               * * *                                                                                                             
             * * * *                                                                                                             
