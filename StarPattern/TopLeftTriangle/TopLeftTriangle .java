@@ -20,7 +20,7 @@ public class TopLeftTriangle
 
 /*
 
-	============ OUTPUT ============
+============ OUTPUT ============
 	
 	Enter a number 10                                                                                                             
 	*                                                                                                                             
