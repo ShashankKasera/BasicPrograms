@@ -13,7 +13,7 @@ public class Main{
 	      for (int j = 1; j <= n; j++){
 	          if (j>=i && j<=n+1-i)
 	                 System.out.print (i+" ");
-	              else
+	          else
 	                 System.out.print ("  ");     
 	      }
 	      System.out.println ("");

@@ -12,7 +12,7 @@ void main(){
 	      for (int j = 1; j <= n; j++){
 	          if (j>=i && j<=n+1-i)
 	                 printf("* ");
-	              else
+	          else
 	                 printf("  ");     
 	      }
 	      printf ("\n");
