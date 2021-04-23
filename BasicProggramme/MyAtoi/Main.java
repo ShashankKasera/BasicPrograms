@@ -16,10 +16,12 @@ public class Main
 	}
 	
 	public static int myAtoi(String s) {   
-     String result="";
-     int flage =0;
-       for(int i=0;i<s.length();i++){
+            String result="";
+            int flage =0;
+            
+            for(int i=0;i<s.length();i++){
               int chear=s.charAt(i);
+              
               if(s.charAt(i)!=' '){
                   if(((chear<=97 && chear>=97) || (chear<=65 && chear>=90)) && flage==0) {
                        break;
@@ -38,7 +40,7 @@ public class Main
                       break;   
               }else if(flage==1)
                   break;
-       }
+            }
        if(result.length()==0||result.equals("+")||result.equals("-"))
            return(0); 
        return (int)Double.parseDouble(result);    
