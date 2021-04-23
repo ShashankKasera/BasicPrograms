@@ -41,8 +41,10 @@ public class Main
               }else if(flage==1)
                   break;
             }
-       if(result.length()==0||result.equals("+")||result.equals("-"))
-           return(0); 
-       return (int)Double.parseDouble(result);    
+           
+            if(result.length()==0||result.equals("+")||result.equals("-"))
+              return(0); 
+            
+            return (int)Double.parseDouble(result);    
     }
 }
