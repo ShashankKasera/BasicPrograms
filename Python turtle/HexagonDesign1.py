@@ -1,6 +1,4 @@
-
 import turtle
-
 t=turtle.Turtle()
 sc=turtle.Screen()
 sc.setup(700,700)

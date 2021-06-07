@@ -1,7 +1,7 @@
 import turtle
 
 t=turtle.Turtle()
-screen=turtle.Screen()
+screen=turtle.Screen(a)
 screen.bgcolor('black')
 t.speed(0)
 screen.setup(600,600)
